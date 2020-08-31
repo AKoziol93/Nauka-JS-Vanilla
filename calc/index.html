@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Kalkulator</title>
+        <script src="calc.js">            
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <form name="form">
+                <input class="textview" name="textview">
+            </form>
+
+            <table>
+                <tr>
+                    <td><input class="button" type="button" value="C" onclick="cNumber()"></td>
+                    <td><input class="button" type="button" value="<" onclick="backNumber()"></td>
+                    <td><input class="button" type="button" value="/" onclick="instertNumber('/')"></td>
+                    <td><input class="button" type="button" value="*" onclick="instertNumber('*')"></td>
+                </tr>
+
+                <tr>
+                    <td><input class="button" type="button" value="7" onclick="instertNumber(7)"></td>
+                    <td><input class="button" type="button" value="8" onclick="instertNumber(8)"></td>
+                    <td><input class="button" type="button" value="9" onclick="instertNumber(9)"></td>
+                    <td><input class="button" type="button" value="-" onclick="instertNumber('-')"></td>
+                </tr>
+
+                <tr>
+                    <td><input class="button" type="button" value="4" onclick="instertNumber(4)"></td>
+                    <td><input class="button" type="button" value="5" onclick="instertNumber(5)"></td>
+                    <td><input class="button" type="button" value="6" onclick="instertNumber(6)"></td>
+                    <td><input class="button" type="button" value="+" onclick="instertNumber('+')"></td>
+                </tr>
+
+                <tr>
+                    <td><input class="button" type="button" value="1" onclick="instertNumber(1)"></td>
+                    <td><input class="button" type="button" value="2" onclick="instertNumber(2)"></td>
+                    <td><input class="button" type="button" value="3" onclick="instertNumber(3)"></td>
+                    <td rowspan="5"><input style="height: 107;" class="button" type="button" value="=" onclick="equalNumber()"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input style="width: 107;" class="button" type="button" value="0" onclick="instertNumber(0)"></td>
+                    <td><input class="button" type="button" value="." onclick="instertNumber('.')"></td>
+                </tr>
+                
+            </table>
+            
+        </div>
+    </body>
+</html>

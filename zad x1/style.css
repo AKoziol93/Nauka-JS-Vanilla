@@ -1,0 +1,101 @@
+    html {}
+    
+    body,
+    html {
+        font-family: sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .mainbody {
+        width: 100%;
+    }
+    
+    #topBody {
+        width: fit-content;
+        width: auto;
+    }
+    
+    #topBody {
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .sticky+.content {
+        padding-top: 60px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    li {
+        float: left;
+        display: inline;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        background-color: black;
+        color: white;
+    }
+    
+    .imgTop {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .centerBody {
+        font-size: large;
+    }
+    
+    .imgText {
+        width: 50%;
+        height: auto;
+    }
+    
+    .leftManu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .leftManu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .leftManu a:hover {
+        color: #f1f1f1;
+    }
+    
+    .leftManu .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }

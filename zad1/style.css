@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background: cyan bottom center;
     background-size: cover;
   }
   
@@ -48,4 +48,11 @@ html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+  }
+  
+  .stringplay{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
